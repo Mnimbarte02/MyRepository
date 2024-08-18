@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[launching browser]]>
+    </line>
+    <line>
+      <![CDATA[waiting...]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on gender button]]>
+    </line>
+    <line>
+      <![CDATA[clicking on next button]]>
+    </line>
+    <line>
+      <![CDATA[entering pin code]]>
+    </line>
+    <line>
+      <![CDATA[entering Mobile Number]]>
+    </line>
+    <line>
+      <![CDATA[clicking on next button]]>
+    </line>
+    <line>
+      <![CDATA[getting getplanNumbersFromBanners ]]>
+    </line>
+    <line>
+      <![CDATA[getting getplanNumbersFromString ]]>
+    </line>
+    <line>
+      <![CDATA[checking sortPlanButtonIsDisplayed ]]>
+    </line>
+    <line>
+      <![CDATA[taking screenShot]]>
+    </line>
+    <line>
+      <![CDATA[saving file at location C:\Users\nimba\eclipse-workspaces\March23_selenium\screenShots\validatePresenceOfButton.png]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-16T23:28:32 IST" name="Default suite" finished-at="2024-08-16T23:28:53 IST" duration-ms="21454">
+    <groups>
+    </groups>
+    <test started-at="2024-08-16T23:28:32 IST" name="Default test" finished-at="2024-08-16T23:28:53 IST" duration-ms="21454">
+      <class name="coverFoxTest.CoverFoxTC1">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CoverFoxTC1@1f59a598]" started-at="2024-08-16T23:28:32 IST" name="launchBrowser" finished-at="2024-08-16T23:28:37 IST" duration-ms="5421" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching browser]]>
+            </line>
+            <line>
+              <![CDATA[waiting...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:coverFoxTest.CoverFoxTC1@1f59a598]" started-at="2024-08-16T23:28:37 IST" name="preConditions" finished-at="2024-08-16T23:28:43 IST" duration-ms="5537" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on gender button]]>
+            </line>
+            <line>
+              <![CDATA[clicking on next button]]>
+            </line>
+            <line>
+              <![CDATA[entering pin code]]>
+            </line>
+            <line>
+              <![CDATA[entering Mobile Number]]>
+            </line>
+            <line>
+              <![CDATA[clicking on next button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="validateBanners()[pri:0, instance:coverFoxTest.CoverFoxTC1@1f59a598]" started-at="2024-08-16T23:28:43 IST" name="validateBanners" finished-at="2024-08-16T23:28:47 IST" duration-ms="4064" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[getting getplanNumbersFromBanners ]]>
+            </line>
+            <line>
+              <![CDATA[getting getplanNumbersFromString ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateBanners -->
+        <test-method signature="validatePresenceOfButton()[pri:0, instance:coverFoxTest.CoverFoxTC1@1f59a598]" started-at="2024-08-16T23:28:47 IST" name="validatePresenceOfButton" finished-at="2024-08-16T23:28:51 IST" duration-ms="4240" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[checking sortPlanButtonIsDisplayed ]]>
+            </line>
+            <line>
+              <![CDATA[taking screenShot]]>
+            </line>
+            <line>
+              <![CDATA[saving file at location C:\Users\nimba\eclipse-workspaces\March23_selenium\screenShots\validatePresenceOfButton.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatePresenceOfButton -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxTest.CoverFoxTC1@1f59a598]" started-at="2024-08-16T23:28:51 IST" name="closeBrowser" finished-at="2024-08-16T23:28:53 IST" duration-ms="2146" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- coverFoxTest.CoverFoxTC1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
